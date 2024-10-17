@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ethey</title>
+  <link rel="stylesheet" href="./style.css">
+  <!-- Bootstrap core CSS -->
+  <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- aos library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <script src="homeScript.js"></script>
+</head>
+
+<body>
+  <div class="home-container">
+    <div class="home-bg">
+      <div class="leaf-bg d-block"></div>
+      <div class="livefit-bg"></div>
+      <div class="ctt-bg"></div>
+      <div class="kabo-bg"></div>
+      <div class="pg-bg"></div>
+      <div class="denovia-bg"></div>
+      <div class="position-relative">
+        <img src="shapes/green_shape.svg" alt="green shape" class="green-shape d-sm-none d-none d-md-block">
+        <img src="shapes/yellow_shape.svg" alt="yellow shape" class="yellow-shape">
+
+        <!-- header section starts -->
+        <section class="position-relative">
+          <header>
+            <div class="container">
+              <div class="row">
+                <!-- for mobile view starts -->
+                <div class="col-lg-6 col-4 d-block d-sm-block d-lg-none mb-5 pb-4">
+                    <img src="main-logo/ethey-main-logo.svg" alt="logo" class="main-logo">
+                </div>
+                <div class="col-lg-6 col-8 d-block d-sm-block d-lg-none mt-3 text-end">
+                    <a href="mailto:hello@ethey.com" class="orange-btn"><img src="icons/mail.svg" alt="no img found"> CONTACT US</a>
+                </div>
+                <!-- for mobile view ends -->
+
+                <div class="col-lg-4 col-12 col-sm-6">
+                  <ul class="nav social-row" data-aos="zoom-in" data-aos-duration="3000">
+                    <li class="nav-link facebook">
+                      <a href="https://www.facebook.com/etheyfoods/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="19" viewBox="0 0 512 512">
+                        <path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+                      </a>
+                    </li>
+                    <li class="nav-link linkedin">
+                      <a href="https://www.linkedin.com/company/etheyfoods/mycompany/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="19" viewBox="0 0 448 512">
+                        <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+                      </a>
+                    </li>
+                    <li class="nav-link instagram">
+                      <a href="https://www.instagram.com/etheyfoods/?hl=en" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="19" viewBox="0 0 448 512">
+                        <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                      </a>
+                    </li>
+                    <li class="nav-link twitter">
+                      <a href="https://twitter.com/etheyfoods?lang=en" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="19" viewBox="0 0 512 512">
+                        <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-4 text-center d-sm-none d-none d-md-block">
+                  <div class="d-flex justify-content-center red-shape">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="332.897" height="315.824"
+                      viewBox="0 0 332.897 315.824">
+                      <path
+                        d="M101.585,253.776c34.851.413,68.1,8.142,99.936,22.1,17.2,7.54,33.328,16.814,47.02,29.863a70.067,70.067,0,0,1,14.025,18.545c7.412,14.3,6.64,28.23-1.739,41.866-6.474,10.535-15.292,18.948-24.882,26.5a495.911,495.911,0,0,1-65.269,43.236c-19.183,10.714-39.989,16.412-62.131,15.982-31.282-.609-57.074-13.1-76.842-37.2-14.281-17.408-24.869-36.9-29.544-59.165C-3.059,330.668.844,307.679,17.58,287.927,32.7,270.078,52.135,259.49,75.333,255.866a153.244,153.244,0,0,1,26.252-2.09"
+                        transform="matrix(0.819, -0.574, 0.574, 0.819, -145.551, -54.347)" />
+                    </svg>
+                    <img src="main-logo/ethey-main-logo.svg" alt="logo" class="main-logo">
+                  </div>
+                </div>
+                <div class="col-lg-4 text-end col-6 d-sm-none d-none d-md-block col-sm-12">
+                  <div data-aos="zoom-in" data-aos-duration="3000">
+                    <a href="mailto:hello@ethey.com" class="orange-btn"><img src="icons/mail.svg" alt="no img found"> CONTACT US</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </header>
+        </section>
+        <!-- header section ends -->
+
+        <!-- nourish body section starts -->
+        <section class="nourish-body position-relative">
+          <div class="container" data-aos="fade-up" data-aos-duration="3000">
+            <h1>Nourish your body, your mind, our planet.</h1>
+            <p>Ethey is an <a href="javascript:void(0)" class="color-orange font-bold">ESG focused portfolio</a> of
+              leading companies in the
+              Food & Beverage space. We help
+              companies adopt fully sustainable practices across all verticals of their business. looking to <a
+                href="javascript:void(0)" class="color-yellow font-bold">maximize their value proposition</a> to their
+              consumers while <a href="javascript:void(0)" class="color-green font-bold">minimizing their global
+                footprint.</a> </p>
+            <div class="text-center my-4">
+              <a href="" class="primary-btn">BRANDS WE EMPOWER</a>
+            </div>
+          </div>
+        </section>
+        <!-- nourish body section ends -->
+
+        <section class="brand-tabs position-relative">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <ul class="nav nav-tabs flex-nowrap bg-white" id="brandTab" role="tablist">
+                  <li class="nav-item w-25" role="brands">
+                    <button class="nav-link h-100 livefit-tab" id="livefit-tab" >
+                      <div class="position-relative">
+                        <img src="brand-logos/SVG/livefit-bw.svg" alt="livefit-bw" class="w-100 livefit-default-img">
+                        <img src="brand-logos/SVG/livefit-c.svg" alt="livefit-c" class="w-100 hover-img">
+                        <img src="brand-logos/SVG/livefit-bg.svg" alt="livefit-light" class="w-100 livefit-active-img">
+                      </div>
+                    </button>
+                  </li>
+                  <li class="nav-item w-25" role="brands">
+                    <button class="nav-link h-100 ctt-tab" id="ctt-tab" >
+                      <div class="position-relative">
+                        <img src="brand-logos/SVG/ctt-bw-default.png" alt="ctt-bw" class="w-100 ctt-default-img">
+                        <img src="brand-logos/SVG/ctt-bw-hover.png" alt="ctt-light" class="w-100 hover-img">
+                        <img src="brand-logos/SVG/ctt-bg.svg" alt="ctt-bg" class="w-100 ctt-active-img">
+                      </div>
+                    </button>
+                  </li>
+                  <li class="nav-item w-25" role="brands">
+                    <button class="nav-link h-100 kabo-tab" id="kabo-tab" >
+                      <div class="position-relative">
+                        <img src="brand-logos/SVG/kabo-bw.svg" alt="kabo-bw" class="w-100 kabo-default-img">
+                        <img src="brand-logos/SVG/kabo-c.svg" alt="kabo-c" class="w-100 hover-img">
+                        <img src="brand-logos/SVG/kabo-bg.svg" alt="kabo-light" class="w-100 kabo-active-img">
+                      </div>
+                    </button>
+                  </li>
+                  <li class="nav-item w-25" role="brands">
+                    <button class="nav-link h-100 pg-tab" id="pg-tab" data-bs-toggle="tab" >
+                      <div class="position-relative">
+                        <img src="brand-logos/SVG/pg-bw.svg" alt="pg-bw" class="w-100 pg-default-img">
+                        <img src="brand-logos/SVG/pg-c.svg" alt="pg-c" class="w-100 hover-img">
+                        <img src="brand-logos/SVG/pg-bg.svg" alt="pg-light" class="w-100 pg-active-img">
+                      </div>
+                    </button>
+                  </li>
+                  <li class="nav-item w-25" role="brands">
+                    <button class="nav-link h-100 denovia-tab m-auto w-100" id="denovia-tab" >
+                      <div class="position-relative d-flex justify-content-center">
+                        <img src="brand-logos/SVG/denovia-bw.svg" alt="denovia-bw" class="w-75 m-auto denovia-default-img">
+                        <img src="brand-logos/SVG/denovia-c.svg" alt="denovia-c" class="w-75 m-auto hover-img">
+                        <img src="brand-logos/SVG/denovia-bg.svg" alt="denovia-light" class="w-100 denovia-active-img">
+                      </div>
+                    </button>
+                  </li>
+                </ul>
+                <div class="tab-content" id="brandTabContent">
+                  <div class="tab-pane fade bg-white position-relative" id="livefit" role="tabpanel"
+                    aria-labelledby="livefit-tab">
+                    <div class="text-end"><i class="fa fa-close"></i></div>
+                    <div class="row align-items-center">
+                      <div class="col-lg-6">
+                        <div class="d-flex">
+                          <img src="images/livefit/livefit_img3.jpeg" alt="" class="brand_img-left">
+                          <img src="images/livefit/livefit_img2.webp" alt="" class="brand_img-right">
+                        </div>
+                        <div class="text-center d-flex justify-content-center position-relative">
+                          <img src="images/livefit/livefit_img1.webp" alt="" class="brand_img-bottom">
+                        </div>
+                      </div>
+                      <div class="col-lg-6 mt-5 mt-lg-0">
+                        <div class="brand_img-content">
+                          <h1>LiveFit</h1>
+                          <p>LiveFit is a whole new way to eat. Our in-house chefs create nourishing dishes that get
+                            delivered right to your door, ready to heat and eat when you are.</p>
+                          <a href="https://www.livefitfood.ca/" target="_blank">VISIT WEBSITE</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade bg-white position-relative" id="ctt" role="tabpanel"
+                    aria-labelledby="ctt-tab">
+                    <div class="text-end"><i class="fa fa-close"></i></div>
+                    <div class="row align-items-center">
+                      <div class="col-lg-6">
+                        <div class="d-flex position-relative">
+                          <img src="images/cheftotable/cheftotable_img3.jpg" alt="" class="brand_img-left">
+                          <img src="images/cheftotable/cheftotable_img2.webp" alt="" class="brand_img-right">
+                          <img src="images/cheftotable/cheftotable_img1.jpg" alt="" class="brand_img-bottom">
+                        </div>
+                      </div>
+                      <div class="col-lg-6 mt-5 mt-lg-0">
+                        <div class="brand_img-content">
+                          <h1>Chef To Table</h1>
+                          <p>Get weekly deliveries in Toronto, Mississauga, Brampton with fresh, healthy meals cooked by
+                            top chefs. Pick your own meal plan. Cancel any time.</p>
+                          <a href="https://cheftotable.ca/" target="_blank">VISIT WEBSITE</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade bg-white position-relative" id="kabo" role="tabpanel"
+                    aria-labelledby="kabo-tab">
+                    <div class="text-end"><i class="fa fa-close"></i></div>
+                    <div class="row align-items-center">
+                      <div class="col-lg-6">
+                        <div class="d-flex">
+                          <img src="images/kabo/kabo_img1.jpg" alt="" class="brand_img-left">
+                          <img src="images/kabo/kabo_img2.jpg" alt="" class="brand_img-right">
+                        </div>
+                        <div class="text-center d-flex justify-content-center position-relative">
+                          <img src="images/kabo/kabo_img3.png" alt="" class="brand_img-bottom">
+                        </div>
+                      </div>
+                      <div class="col-lg-6 mt-5 mt-lg-0">
+                        <div class="brand_img-content">
+                          <h1>Kabo</h1>
+                          <p>We work with the best canine nutrition experts to formulate healthy and tasty recipes even
+                            the pickiest eaters will approve.</p>
+                          <a href="https://kabo.co/" target="_blank">VISIT WEBSITE</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade bg-white position-relative" id="pg" role="tabpanel"
+                    aria-labelledby="pg-tab">
+                    <div class="text-end"><i class="fa fa-close"></i></div>
+                    <div class="row align-items-center">
+                      <div class="col-lg-6">
+                        <div class="d-flex position-relative">
+                          <img src="images/puppygang/puppygang-img1.webp" alt="" class="brand_img-left">
+                          <img src="images/puppygang/puppygang-image2.jpeg" alt="" class="brand_img-right">
+                          <img src="images/puppygang/puppygang-image3.jpg" alt="" class="brand_img-bottom">
+                        </div>
+                      </div>
+                      <div class="col-lg-6 mt-5 mt-lg-0">
+                        <div class="brand_img-content">
+                          <h1>Puppy Gang</h1>
+                          <p>Whether you are using Puppy Gang meals as a whole meal or as a topper by mixing into
+                            existing
+                            food, adding real, whole ingredients to your dog’s diet will go a long way.</p>
+                          <a href="https://puppygangfreshfoods.com/" target="_blank">VISIT WEBSITE</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade bg-white position-relative" id="denovia" role="tabpanel"
+                    aria-labelledby="denovia-tab">
+                    <div class="text-end"><i class="fa fa-close"></i></div>
+                    <div class="row align-items-center">
+                      <div class="col-lg-6">
+                        <div class="d-flex position-relative">
+                          <img src="images/denovia/denovia_img1.jpg" alt="" class="brand_img-left">
+                          <img src="images/denovia/denovia_img2.jpg" alt="" class="brand_img-right">
+                          <img src="images/denovia/denovia_img3.png" alt="" class="brand_img-bottom">
+                        </div>
+                      </div>
+                      <div class="col-lg-6 mt-5 mt-lg-0">
+                        <div class="brand_img-content">
+                          <h1>Denovia</h1>
+                          <p>Denovia is an innovative research company helping lead a seismic wave across plastic waste
+                            &
+                            sustainability.</p>
+                          <a href="https://denovialabs.com/" target="_blank">VISIT WEBSITE</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="press-section mb-5">
+          <div class="container">
+            <div class="text-center my-5">
+              <a href="" class="primary-btn px-5">PRESS COVERAGE</a>
+            </div>
+            <div class="col-lg-12">
+              <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="3000">
+                    <div class="row">
+                      <div class="col-lg-4 col-sm-4 col-4">
+                        <a href="https://www.forbes.com/sites/douglasyu/2021/08/26/gary-vaynerchuk-leads-investments-in-esg-focused-meal-delivery-and-breakfast-oatmeal-startups/?sh=57c34191541f" target="_blank">
+                          <img src="press-logos/forbes_logo_f.svg" alt="no img found" class="w-100">
+                        </a>
+                      </div>
+                      <div class="col-lg-4 col-sm-4 col-4">
+                        <a href="https://www.sfweekly.com/marketplace/this-is-it-finally-someone-has-a-solution-for-the-world-s-worst-dilemma-plastic/article_d7eff872-b7b7-11ed-99e8-fb0138f37f27.html" target="_blank">
+                          <img src="press-logos/SF_Weekly_logo_white.svg" alt="no img found" class="w-100">
+                        </a>
+                      </div>
+                      <div class="col-lg-4 col-sm-4 col-4">
+                        <a href="https://globalnews.ca/video/8483308/food-delivery-service-ethey-operates-with-zero-waste-policy" target="_blank">
+                          <img src="press-logos/Global_News.svg" alt="no img found" class="w-100">
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <div class="row">
+                      <div class="col-lg-4 col-sm-4 col-4">
+                        <a href="https://london.ctvnews.ca/nationwide-food-delivery-company-using-closed-loop-system-to-aid-food-shortages-1.5941266" target="_blank">
+                          <img src="press-logos/ctv-news.png" alt="no img found" class="w-100">
+                        </a>
+                      </div>
+                      <div class="col-lg-4 col-sm-4 col-4">
+                        <a href="https://www.washingtontimes.com/sponsored/denovia-labs-plastic-remanufacturing-company-changing-world/" target="_blank">
+                          <img src="press-logos/washingtontimes-light.png" alt="no img found" class="w-100">
+                        </a>
+                      </div>
+                      <div class="col-lg-4 col-sm-4 col-4">
+                        <a href="https://disruptmagazine.com/the-top-10-thriving-entrepreneurs-to-watch-in-2022/" target="_blank">
+                          <img src="press-logos/disrupt-logo.png" alt="no img found" class="w-100">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="footer">
+          <footer class="py-3">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6">
+                  <p class="m-0">©2023 Ethey Group Inc.</p>
+                </div>
+                <div class="col-lg-6 text-end">
+                  All Rights Reserved.
+                </div>
+              </div>
+            </div>
+          </footer>
+        </section>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+<script>
+  AOS.init();
+</script>
+
+</html>

@@ -1,0 +1,614 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Inter', sans-serif !important;
+}
+
+@font-face {
+  font-family: Caslon Doric Trial;
+  src: url("fonts/caslondoric/CaslonDoric-Medium-Trial.woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Inter', sans-serif;
+  src: url("fonts/inter/otf/Inter-Regular.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Inter', sans-serif;
+  src: url("fonts/inter/otf/Inter-Medium.otf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Inter', sans-serif;
+  src: url("fonts/inter/otf/Inter-SemiBold.otf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Inter', sans-serif;
+  src: url("fonts/inter/otf/Inter-Bold.otf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Inter', sans-serif;
+  src: url("fonts/inter/otf/Inter-Italic.otf");
+  font-weight: normal;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.color-orange {
+    color: #F78568;
+}
+.color-orange:hover {
+    color: #F78568;
+}
+.color-yellow {
+    color: #F5B92E;
+}
+.color-yellow:hover {
+    color: #F5B92E;
+}
+.color-green {
+    color: #88B363;
+}
+.color-green:hover {
+    color: #88B363;
+}
+
+/* home container css starts */
+
+.livefit-bg {
+    background-image: url('background/livefit-bg.svg');
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    display: none;
+    padding: 15% 0;
+}
+.ctt-bg {
+    background-image: url('background/ctt-bg.svg');
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    display: none;
+    padding: 15% 0;
+}
+.kabo-bg {
+    background-image: url('background/kabo-bg.svg');
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    display: none;
+    padding: 15% 0;
+}
+.pg-bg {
+    background-image: url('background/pg-bg.svg');
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    display: none;
+    padding: 15% 0;
+}
+.denovia-bg {
+    background-image: url('background/denovia-bg.svg');
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    display: none;
+    padding: 15% 0;
+}
+
+.leaf-bg {
+    background-image: url('background/leafpattern.svg');
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    opacity: 12%;
+    background-position: center;
+    background-attachment: fixed;
+    display:none;
+}
+
+.home-container {
+    position: relative;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.home-bg {
+    background-color: #384443;
+    height: 100%;
+    /* position: relative; */
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.green-shape {
+    top: -398.959228515625px;
+    position: absolute;
+    right: -430px;
+    overflow: hidden;
+}
+
+.yellow-shape {
+    left: -332.14532470703125px;
+    position: absolute;
+}
+
+/* home container css ends */
+
+
+/* header container css starts */
+
+header {
+    padding: 63px 0;
+}
+
+.social-row .nav-link {
+    padding: 0 14px;
+}
+
+.social-row svg {
+    fill: #ffffff;
+}
+
+.social-row .facebook svg:hover {
+    fill: #81A7FF;
+}
+
+.social-row .linkedin svg:hover {
+    fill: #5471FF;
+}
+
+.social-row .twitter svg:hover {
+    fill: #94D6F3;
+}
+
+
+.social-row .instagram svg:hover {
+    fill: #F6BCBC;
+}
+
+.red-shape svg {
+    top: -88.91239929199219px;
+    position: absolute;
+    z-index: 1;
+    fill: #f78568;
+}
+
+.main-logo {
+    position: absolute;
+    z-index: 2;
+    margin-right: 40px;
+}
+
+/* header container css ends */
+
+.nourish-body {
+    padding: 55px 0;
+}
+
+.nourish-body h1 {
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    max-width: 720px;
+    margin: 0 auto 50px auto;
+    font-family: Caslon Doric Trial;
+    letter-spacing: 0px;
+    font-size: 52px;
+}
+
+.nourish-body p {
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    max-width: 720px;
+    margin: auto;
+    text-align: center;
+}
+
+.primary-btn {
+    border-radius: 50px;
+    background-color: rgb(112, 112, 112, 0.2);
+    color: #ffffff;
+    padding: 15px 24px;
+    text-decoration: none;
+    letter-spacing: 2.8px;
+    font-size: 14px;
+}
+
+.primary-btn:hover {
+    color: #ffffff;
+}
+
+.orange-btn {
+    background-color: #F78568;
+    border-radius: 100px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 13px 22px;
+    letter-spacing: 2.8px;
+}
+
+.orange-btn:hover {
+    color: #ffffff;
+}
+
+/* #livefit-tab */
+
+#livefit-tab .livefit-active-img {
+    display: none;
+    border-top-left-radius: 10px;
+}
+
+#livefit-tab .hover-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index: -1;
+}
+
+#livefit-tab .livefit-default-img:hover +  .hover-img {
+    z-index: 9;
+    position: absolute;
+    left: 0;
+    opacity: 1;
+    top: 0;
+}
+
+
+/* #ctt-tab */
+
+#ctt-tab .default-img:hover {
+    display: none;
+}
+
+#ctt-tab .ctt-active-img {
+    display: none;
+}
+
+#ctt-tab .hover-img {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    visibility: hidden;
+    z-index: -1;
+    transition: opacity .2s;
+    /* transition: opacity 1s ease-out; */
+}
+
+#ctt-tab .ctt-default-img:hover {
+    opacity: 0;
+    z-index: -2;
+    visibility: hidden;
+}
+
+#ctt-tab .ctt-default-img:hover +  .hover-img {
+    z-index: 9;
+    position: absolute;
+    left: 0;
+    visibility: visible;
+    top: 0px;
+    /* transition: opacity 1s ease-out; */
+}
+
+/* #kabo-tab */
+
+#kabo-tab .default-img:hover {
+    display: none;
+}
+
+#kabo-tab .kabo-active-img {
+    display: none;
+}
+
+#kabo-tab .hover-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index: -1;
+}
+
+#kabo-tab .kabo-default-img:hover +  .hover-img {
+    z-index: 9;
+    position: absolute;
+    left: 0;
+    opacity: 1;
+    top: 0;
+}
+
+/* #pg-tab */
+
+#pg-tab .default-img:hover {
+    display: none;
+}
+
+#pg-tab .pg-active-img {
+    display: none;
+}
+
+#pg-tab .hover-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index: -1;
+}
+
+#pg-tab .pg-default-img:hover +  .hover-img {
+    z-index: 9;
+    position: absolute;
+    left: 0;
+    opacity: 1;
+    top: 0;
+}
+
+/* #denovia-tab */
+
+#denovia-tab .default-img:hover {
+    display: none;
+}
+
+#denovia-tab .denovia-active-img {
+    display: none;
+    border-top-right-radius: 10px;
+}
+
+#denovia-tab .hover-img {
+    position: absolute;
+    top: 0;
+    opacity: 1;
+    z-index: -1;
+}
+
+#denovia-tab .denovia-default-img:hover +  .hover-img {
+    z-index: 9;
+    position: absolute;
+    opacity: 1;
+    top: 0;
+}
+
+.brand-tabs .tab-pane {
+    padding: 45px 0px;
+}
+
+.brand-tabs .nav-tabs {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.brand-tabs .tab-pane .fa-close {
+    position: absolute;
+    right: 18px;
+    top: 14px;
+    color: #34403F;
+    opacity: 0.3;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.brand-tabs .nav-tabs .nav-link {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.brand-tabs .tab-pane .fa-close:hover {
+    opacity: 1;
+}
+
+.brand-tabs #livefit .brand_img-left {
+    box-shadow: 10px 20px 30px #0000001A;
+    border-radius: 20px;
+    margin-left: -85px;
+    width: 55%;
+}
+
+.brand-tabs #livefit .brand_img-right {
+    box-shadow: 10px 20px 30px #0000001A;
+    border-radius: 20px;
+    margin: 20px 0 0 -20px;
+    width: 45%;
+}
+
+.brand-tabs #livefit .brand_img-bottom {
+    box-shadow: 10px 20px 30px #0000001A;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -74px;
+    width: 42%;
+    z-index: 2;
+}
+
+.brand-tabs #ctt .brand_img-left {
+    box-shadow: 10px 20px 30px #0000001A;
+    border-radius: 20px;
+    margin-left: -85px;
+    width: 55%;
+}
+
+.brand-tabs #ctt .brand_img-right {
+    box-shadow: 10px 20px 30px #0000001A;
+    border-radius: 20px;
+    margin: 40px 0 0 -42px;
+    width: 70%;
+    height: 100%;
+}
+
+.brand-tabs #ctt .brand_img-bottom {
+    box-shadow: 10px 20px 30px #00000029;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 32px;
+    width: 53%;
+    z-index: 2;
+    right: 52px;
+}
+
+.brand-tabs #kabo .brand_img-left {
+    box-shadow: 10px 20px 30px #0000001A;
+    border-radius: 20px;
+    margin-left: -85px;
+    width: 55%;
+}
+
+.brand-tabs #kabo .brand_img-right {
+    box-shadow: 10px 20px 30px #0000001A;
+    border-radius: 20px;
+    margin: 20px 0 0 -20px;
+    width: 45%;
+}
+
+.brand-tabs #kabo .brand_img-bottom {
+    box-shadow: 10px 20px 30px #0000001A;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -74px;
+    width: 42%;
+    z-index: 2;
+}
+
+.brand-tabs #pg .brand_img-left {
+        box-shadow: 10px 20px 30px #0000001A;
+    border-radius: 20px;
+    margin-left: -85px;
+    width: 60%;
+    height: 100%;
+    margin-top: 55px;
+}
+
+.brand-tabs #pg .brand_img-right {
+    box-shadow: 10px 20px 30px #0000001A;
+    border-radius: 20px;
+    margin: 0px 0 0 -20px;
+    width: 53%;
+}
+
+.brand-tabs #pg .brand_img-bottom {
+    box-shadow: 10px 20px 30px #0000001A;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -60px;
+    width: 40%;
+    z-index: 2;
+    left: 80px;
+}
+
+.brand-tabs #denovia .brand_img-left {
+        box-shadow: 10px 20px 30px #0000001A;
+    border-radius: 20px;
+    margin-left: -85px;
+    width: 60%;
+    height: 100%;
+    margin-top: 55px;
+}
+
+.brand-tabs #denovia .brand_img-right {
+    box-shadow: 10px 20px 30px #0000001A;
+    border-radius: 20px;
+    margin: 0px 0 0 -20px;
+    width: 53%;
+}
+
+.brand-tabs #denovia .brand_img-bottom {
+    box-shadow: 10px 20px 30px #0000001A;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -60px;
+    width: 40%;
+    z-index: 2;
+    left: 80px;
+}
+
+.brand_img-content {
+    padding: 23px 53px;
+}
+
+.brand_img-content h1 {
+    letter-spacing: 0px;
+    color: #34403F;
+    font-size: 52px;
+    margin-bottom: 30px;
+    font-family: Caslon Doric Trial;
+}
+
+.brand_img-content p {
+    letter-spacing: 0.4px;
+    color: #34403F;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.brand_img-content a {
+    border-radius: 50px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 35px;
+    letter-spacing: 2.8px;
+}
+
+.brand_img-content a:hover {
+    color: #ffffff;
+}
+
+#livefit .brand_img-content a {
+    background-color: #EE254D;
+}
+
+#ctt .brand_img-content a {
+    background-color: #CD783B;
+}
+
+#kabo .brand_img-content a {
+    background-color: #1A2C4E;
+}
+
+#pg .brand_img-content a {
+    background-color: #FFC300;
+}
+
+#denovia .brand_img-content a {
+    background: transparent linear-gradient(276deg, #0167D3 0%, #009DDF 48%, #3BB986 100%) 0% 0% no-repeat padding-box;
+}
+
+/* press section css */
+
+.press-section img {
+    height: 50px;
+    object-fit: contain;
+}
+
+/* footer css */
+
+footer {
+    color: #FFFFFF;
+    font-size: 12px;
+    background-color: #384443;
+}
